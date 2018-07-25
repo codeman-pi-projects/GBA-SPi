@@ -136,10 +136,10 @@ def BrightnessUpdate(brightness_high, brightness_low):
 	BrightnessValue = (brightness_high * 256) + brightness_low
 	
 	#Uncomment and use this when I have all the brightness pictures available
-	#BrightnessPicture = "percent" + str(myround(BrightnessValue))
+	BrightnessPicture = "percent" + str(myround(BrightnessValue))
 	
 	#for now just use this hardcoded value:
-	BrightnessPicture = "percent" + str(95)
+	#BrightnessPicture = "percent" + str(95)
 	
 	#First set the new brightness on screen icon, then kill any other pngview processes
 	#  This should give a smooth update without things flashing?
